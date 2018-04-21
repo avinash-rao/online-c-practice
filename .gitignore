@@ -1,11 +1,10 @@
-.clang
+.clang/
 .codelite/
 Makefile
-Online.workspace
+*.workspace
 
 debug/
 *.project
 *.txt
 *.mk
 
-.gitignore
