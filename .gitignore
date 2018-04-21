@@ -2,3 +2,8 @@
 .codelite/
 Makefile
 Online.workspace
+
+debug/
+*.project
+*.txt
+*.mk
