@@ -7,3 +7,5 @@ debug/
 *.project
 *.txt
 *.mk
+
+.gitignore
