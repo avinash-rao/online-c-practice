@@ -1,0 +1,32 @@
+Given a number n, find the ordered prime signatures and find the number of divisor of n.
+Any positive integer, ‘n’ can be expressed in the form of its prime factors. If ‘n’ has p1, p2, … etc. as its prime factors, then n can be expressed as :
+n = {p_1}^{e1} * {p_2}^{e2} * ...
+Arrange the obtained exponents of the prime factors of ‘n’ in non-decreasing order. The arrangement thus obtained is called the ordered prime signature of the positive integer ‘n’.
+
+Input:
+The first line contains an integer T, the number of test cases. For each test case, there is an integer n.
+
+Output:
+For each test case, the output is ordered prime signature and in next line, the total number of divisor of n. 
+
+Constraints:
+1<=T<=100
+2<=n<=10^6
+
+Example:
+Input
+2
+20
+13
+Output
+1 2
+6
+1
+2
+
+Explanation
+
+1.20 = 2^2 * 5^1,  ordered prime signature of 20 = { 1, 2 } and divisor are 1,2,4,5,10,20 i.e. 6.
+
+2. 13=131 , ordered prime signature of 13 is {1} and divisor are 1 & 13 i.e. 2
+
